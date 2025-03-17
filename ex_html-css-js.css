@@ -5,7 +5,23 @@ body {
 }
 
 h1 {
-   ...........
+   font-size: 32px;
+   color: darkred;
+   text-align: center;
+   margin-bottom: 20px;
+}
+
+h2{
+   font-size: 24px;
+   color: darkgrey;
+   margin-bottom: 15px;
+}
+
+img{
+   height: 100;
+   align-items: center;
+   border-radius: 5px;
+   margin-bottom: 15px;
 }
 
 form {
