@@ -8,7 +8,7 @@ envio.addEventListener("mouseover", function(){
 envio.addEventListener("mouseout", function(){
     envio.style.color = "black"
 })
-document.getElementById("Fotrmulario").oninput=function(){
+document.getElementById("Formulario").oninput=function(){
     let obligatorio = document.getElementById("obligatorio").value.trim()
     let mensaje = document.getElementById("mensaje")
     if(obligatorio === ""){
