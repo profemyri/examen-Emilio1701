@@ -5,9 +5,7 @@ body {
    font-family: Arial, sans-serif;
    color: black;
 }
-image{
-   text-align: center;
-}
+
 h1 {
    font-size: 32px;
    color: darkred;
@@ -23,7 +21,7 @@ h2{
 
 img{
    height: 100%;
-   
+   text-align: center;
    border-radius: 5px;
    margin-bottom: 15px;
 }
