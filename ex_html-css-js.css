@@ -37,4 +37,13 @@ input, select, textarea{
    padding: 8px;
    margin-bottom: 15px;
 }
-
+button{
+   background-color: darkred;
+   color: white;
+   text-align: center;
+   border-radius: 5px;
+   padding: 10px;
+}
+textarea{
+   background-color: darkgrey;
+}
