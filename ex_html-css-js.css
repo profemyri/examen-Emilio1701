@@ -44,9 +44,6 @@ button{
    border-radius: 5px;
    padding: 10px;
 }
-placeholder-shown{
-   background-color: aquamarine;
-}
 textarea{
    background-color: darkgrey;
 }
