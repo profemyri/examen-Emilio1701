@@ -1,4 +1,6 @@
-
+*{
+   align-items: center;
+}
 body {
    align-items: center;
    background-color: beige;
@@ -21,7 +23,6 @@ h2{
 
 img{
    height: 100%;
-   text-align: center;
    border-radius: 5px;
    margin-bottom: 15px;
    margin-left: 350px;
