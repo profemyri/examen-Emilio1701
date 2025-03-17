@@ -8,37 +8,37 @@
     <link rel="stylesheet" href="ex_html-css-js.css">
 </head>
 <body>
-   <form action="">
+   <form id="formulario">
     <fieldset>
         <h2>Nombre</h2> 
-        <input type="text" required>
+        <input id="nombre" type="text" required>
         <h2>Apellidos</h2>
-        <input type="text" required>
+        <input id="Apellidos" type="text" required>
         <h2>Direeccion</h2>
-        <input type="text" required>
+        <input id="Direeccion" type="text" required>
         <h2>Telefono:</h2>
-        <input type="text" required>
+        <input id="Telefono" type="text" required>
         <h2>Email:</h2>
-        <input type="text" required>
+        <input id="Email" type="text" required>
         <h2>¿A qué hora prefiere que llegue su pedido?:</h2>
-        <input type="time" required>      
+        <input id="hora" type="time" required>      
 
      
         <h2>Tipo de hamburguesa</h2>
-        <select name="" id="">
+        <select name="" id="Tipo">
             <option value="">Clasica</option>
             <option value="">BBQ</option>
             <option value="">Especial</option>
         </select>
         <br>
         <h2>Ingredientes extra</h2>
-        <input type="checkbox" name="" id=""> Bacon
-        <input type="checkbox" name="" id=""> Queso
-        <input type="checkbox" name="" id=""> Huevo
-        <input type="checkbox" name="" id=""> Patatas
+        <input type="checkbox" name="" id="Bacon"> Bacon
+        <input type="checkbox" name="" id="Queso"> Queso
+        <input type="checkbox" name="" id="Huevo"> Huevo
+        <input type="checkbox" name="" id="Patatas"> Patatas
         <br>
         <h2>Cantidad</h2>
-        <select name="" id="" required>
+        <select name="" id="Cantidad" required>
             <option value="">1</option>
             <option value="">2</option>
             <option value="">3</option>
@@ -47,15 +47,15 @@
         </select>
 
         <h2>Metodo de pago</h2>
-        <select name="" id="" required>
+        <select name="" id="pago" required>
             <option value="">Efectivo</option>
             <option value="">Tarjeta</option>
             <option value="">Paypal</option>
         </select>
         <h2>Instrucciones adicionales</h2>
-        <textarea maxlength="100" name="" id=""></textarea>
+        <textarea maxlength="100" name="" id="Instrucciones"></textarea>
         <br>
-        <button type="submit">Enviar pedido</button>
+        <button type="submit" id="boton">Enviar pedido</button>
     </fieldset>
     
    </form>
