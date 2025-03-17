@@ -1,12 +1,12 @@
 document.getElementById("boton").onclick = function(){
     document.body.classList.toggle("oscuro")
 }
-let envio =document.getElementById("envio")
-envio.addEventListener("mouseover", function(){
-    envio.style.color = "red"
+let envio =document.getElementById("boton")
+boton.addEventListener("mouseover", function(){
+    boton.style.color = "red"
 })
-envio.addEventListener("mouseout", function(){
-    envio.style.color = "black"
+boton.addEventListener("mouseout", function(){
+    boton.style.color = "black"
 })
 document.getElementById("Formulario").oninput=function(){
     let obligatorio = document.getElementById("obligatorio").value.trim()
