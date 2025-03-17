@@ -1,7 +1,7 @@
 document.getElementById("boton").onclick = function(){
     document.body.classList.toggle("oscuro")
 }
-let envio =document.getElementById("boton")
+let boton =document.getElementById("boton")
 boton.addEventListener("mouseover", function(){
     boton.style.color = "red"
 })
