@@ -57,18 +57,6 @@ formulario.addEventListener('submit', (e) => {
     }
 });
 
-// 3. Contador de caracteres en instrucciones adicionales
-const instruccionesInput = document.getElementById('Instrucciones');
-const contadorCaracteres = document.createElement('p');
-formulario.appendChild(contadorCaracteres);
-
-instruccionesInput.addEventListener('input', () => {
-    const caracteresEscritos = instruccionesInput.value.length;
-    contadorCaracteres.textContent = `Caracteres: ${caracteresEscritos}/200`;
-    if (caracteresEscritos > 200) {
-        instruccionesInput.value = instruccionesInput.value.slice(0, 200);  // Limita a 200 caracteres
-    }
-});
 
 // 4. Confirmación antes de enviar el pedido
 formulario.addEventListener('submit', (e) => {
